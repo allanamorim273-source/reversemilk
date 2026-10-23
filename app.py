@@ -58,7 +58,7 @@ n_sim = st.sidebar.select_slider("Simulações Monte Carlo", [200, 500, 1000, 20
 
 d, r = calcular(df, agora, tol, limite, n_sim)
 
-st.title("ReverseMilk — Planejamento reverso e monitoramento da produção")
+st.title("ReverseMilk – Planejamento Reverso e Simulação de Cenários Produtivos")
 st.caption(f"Horário simulado: {agora:%d/%m/%Y %H:%M} · dados "
            f"{'do CSV enviado' if arq else 'sintéticos (simulação estocástica)'}")
 
